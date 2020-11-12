@@ -102,8 +102,8 @@ if __name__ == '__main__':
     time_steps = 0
     initialize_variables()
     get_useful_stats()
+    degree_distribution()
     observe()
-
     results = np.zeros(20)
     for i in range(20):
         time_steps = 0
@@ -121,4 +121,4 @@ if __name__ == '__main__':
     print(results)
     print("average", average)
 
-    # degree_distribution()
+
